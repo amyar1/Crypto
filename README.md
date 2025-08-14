@@ -30,7 +30,13 @@ npm install
 ```
 BOT_TOKEN=Your_Telegram_Bot_Token
 ```
-### 4️⃣ اجرای ربات
+### 4️⃣ وارد کردن Api 
+داخل فایل bot.js خط 7 ام ما نیاز به وارد کردن یه api برای دریافت لحظه ای نرخ ارز داریم میتونید api مد نظرتونو وارد کنید
+
+```
+const API_BASE = 'Your API';
+```
+### 5️⃣ اجرای ربات
 ```
 node bot.js
 ```
